@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package     WT_Playground
+ * @author      Rehan Mobin <m.rehan.mobin@gmail.com>
+ * @copyright   Copyright (c) wardatechnologies. All rights reserved. (https://www.wardatechnologies.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="playground_command" xsi:type="object">WT\Playground\UI\Console\PlaygroundCommand</item>
+            </argument>
+        </arguments>
+    </type>
+    <type name="WT\Playground\UI\Console\PlaygroundCommand">
+        <arguments>
+            <argument name="pgDir" xsi:type="const">WT\Playground\UI\Console\PlaygroundDirResolver::PG_DIR_PATH</argument>
+        </arguments>
+    </type>
+</config>

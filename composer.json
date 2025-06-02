@@ -1,0 +1,46 @@
+{
+    "name": "wt/magento2-playground",
+    "type": "magento2-module",
+    "description": "Playground for devs to quickly run & test services and methods.",
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Rehan Mobin",
+            "email": "m.rehan.mobin@gmail.com",
+            "homepage": "wardatechnologies.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "magento/framework": "*",
+        "mage4/magento2-base": "*"
+    },
+    "keywords": [
+        "magento extensions",
+        "magento",
+        "magento2",
+        "magento playground",
+        "playground",
+        "testing",
+        "sandbox",
+        "dev-tools",
+        "test environment",
+        "developer tool",
+        "quick test",
+        "wt",
+        "wardatechnologies"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WT\\Playground\\": ""
+        }
+    }
+}

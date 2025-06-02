@@ -1,0 +1,9 @@
+<?php
+
+use Magento\Framework\App\ObjectManager;
+use Magento\Framework\App\Filesystem\DirectoryList;
+
+return function(ObjectManager $ob) {
+    $dir = $ob->get(DirectoryList::class);
+    dump($dir->getRoot());
+};
