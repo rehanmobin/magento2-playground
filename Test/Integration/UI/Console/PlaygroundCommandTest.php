@@ -1,8 +1,14 @@
 <?php
+/**
+ * @category  DTP
+ * @package   DTP_Playground
+ * @author    Rehan Mobin <m.rehan.mobin@gmail.com>
+ * @copyright Copyright (c) devteampro. All rights reserved. (https://devteampro.com/)
+ */
 
-namespace WT\Playground\Test\UI\Console;
+namespace DTP\Playground\Test\UI\Console;
 
-use WT\Playground\UI\Console\PlaygroundCommand;
+use DTP\Playground\UI\Console\PlaygroundCommand;
 use Magento\Framework\ObjectManagerInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
@@ -13,7 +19,6 @@ class PlaygroundCommandTest extends TestCase
 {
     private ?ObjectManagerInterface $objectManager = null;
     private ?CommandTester $command = null;
-    private $moduleDir = null;
     private ?string $testPlayGroundDirPath;
 
     protected function setUp(): void

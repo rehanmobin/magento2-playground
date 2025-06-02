@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @package     WT_Playground
+ * @package     DTP_Playground
  * @author      Rehan Mobin <m.rehan.mobin@gmail.com>
- * @copyright   Copyright (c) wardatechnologies. All rights reserved. (https://www.wardatechnologies.com)
+ * @copyright   Copyright (c) devteampro. All rights reserved. (https://devteampro.com/)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="WT_Playground" setup_version="1.0.0" />
+    <module name="DTP_Playground" setup_version="1.0.0" />
 </config>

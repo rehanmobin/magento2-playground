@@ -1,12 +1,12 @@
 <?php
 /**
- * @category  WT
- * @package   WT_Playground
+ * @category  DTP
+ * @package   DTP_Playground
  * @author    Rehan Mobin <m.rehan.mobin@gmail.com>
- * @copyright Copyright (c) wardatechnologies. All rights reserved. (https://www.wardatechnologies.com)
+ * @copyright Copyright (c) devteampro. All rights reserved. (https://devteampro.com/)
  */
 
-namespace WT\Playground\UI\Console;
+namespace DTP\Playground\UI\Console;
 
 use Magento\Framework\App\Area;
 use Magento\Framework\App\State;
@@ -29,7 +29,7 @@ class PlaygroundCommand extends Command
 
     protected function configure(): void
     {
-        $this->setName('wt:playground')
+        $this->setName('dtp:playground')
             ->setDescription('playground for developers to quickly test any code.');
         parent::configure();
     }

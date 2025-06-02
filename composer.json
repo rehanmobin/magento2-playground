@@ -1,5 +1,5 @@
 {
-    "name": "wtech/magento2-playground",
+    "name": "devteampro/magento2-playground",
     "type": "magento2-module",
     "description": "Playground for devs to quickly run & test services and methods.",
     "minimum-stability": "stable",
@@ -12,13 +12,12 @@
         {
             "name": "Rehan Mobin",
             "email": "m.rehan.mobin@gmail.com",
-            "homepage": "http://wardatechnologies.com"
+            "homepage": "https://devteampro.com/"
         }
     ],
     "require": {
         "php": ">=7.4",
-        "magento/framework": "*",
-        "mage4/magento2-base": "*"
+        "magento/framework": "*"
     },
     "keywords": [
         "magento extensions",
@@ -32,15 +31,14 @@
         "test environment",
         "developer tool",
         "quick test",
-        "wt",
-        "wardatechnologies"
+        "devteampro"
     ],
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "WT\\Playground\\": ""
+            "DTP\\Playground\\": ""
         }
     }
 }
