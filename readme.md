@@ -14,7 +14,7 @@ php bin/magento setup:static-content:deploy
 
 ## Usage
 
-To enable the playground, just copy the `app/code/Pol/Playground/playground.php.dist` file to **dev/tools** directory of the project `dev/tools/playground.php`.
+To enable the playground, just copy the `app/code/WT/Playground/playground.php.dist` file to **dev/tools** directory of the project `dev/tools/playground.php`.
 
 Add `playground.php` to `.gitignore` file 
 ```
