@@ -14,7 +14,10 @@ php bin/magento setup:static-content:deploy
 
 ## Usage
 
-To enable the playground, just copy the `app/code/DTP/Playground/playground.php.dist` file to **dev/tools** directory of the project `dev/tools/playground.php`.
+To enable the playground, just copy the `playground.php.dist` file from module's root dir to **dev/tools** directory of the project `dev/tools/playground.php`.
+
+If this module is installed manually in `app/code` then the path would be `app/code/DTP/Playground/playground.php.dist`. <br/>
+Or if the module is installed via composer then the path would be `vendor/devteampro/magento2-playground/playground.php.dist`.
 
 Add `playground.php` to `.gitignore` file 
 ```
@@ -34,6 +37,7 @@ return function(ObjectManager $ob) {
     dump($dir->getRoot());
 };
 ```
+### Run playground
 
 You should be able to run this with: `bin/magento dtp:playground`.
 
