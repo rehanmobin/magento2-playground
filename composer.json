@@ -1,9 +1,9 @@
 {
-    "name": "wt/magento2-playground",
+    "name": "wtech/magento2-playground",
     "type": "magento2-module",
     "description": "Playground for devs to quickly run & test services and methods.",
     "minimum-stability": "stable",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"

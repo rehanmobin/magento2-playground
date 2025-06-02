@@ -5,7 +5,7 @@ Playground enables developers to quickly test any code in their system and acces
 ## Install via composer
 
 ```
-composer require wt/magento2-playground
+composer require wtech/magento2-playground
 
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
